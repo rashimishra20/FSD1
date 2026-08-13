@@ -6,12 +6,16 @@
     <title>loop</title>
 </head>
 <body>
+    <p id ="demo"></p>
     <script>
        var fruits = ["Apple", "Banana", "Mango"];
-       for(let i=0;i<fruits.length;i++){
-        document.write(fruits[i]+" ");
+       let len=fruits.length;
+       let text=" ";
+       for(let i=0;i<len;i++){
+        if(i==1) continue;
+        text+=fruits[i]+"<br>";
        }
-
+       document.getElementById("demo").innerHTML=text;
     </script>
 </body>
 </html>
