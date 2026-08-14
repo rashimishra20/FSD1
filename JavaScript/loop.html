@@ -6,14 +6,23 @@
     <title>loop</title>
 </head>
 <body>
-    <p id ="demo"></p>
+   
+    <h1 id="demo"></h1>
     <script>
-       var fruits = ["Apple", "Banana", "Mango"];
+    /**   var fruits = ["Apple", "Banana", "Mango"];
        let len=fruits.length;
        let text=" ";
        for(let i=0;i<len;i++){
         if(i==1) continue;
         text+=fruits[i]+"<br>";
+       }
+       document.getElementById("demo").innerHTML=text;**/
+       //WHILE LOOP
+       let i=1;
+       let text=" ";
+       while(i<=5){
+        text=document.write(" <br> hello");
+        i++;
        }
        document.getElementById("demo").innerHTML=text;
     </script>
