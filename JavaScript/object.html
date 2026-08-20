@@ -6,17 +6,53 @@
     <title>Object</title>
 </head>
 <body>
-    <p id="demo"></p>
-    <script>
-    const student = {
-        name: "rashi",
-        class: "ds-b",
-        fee: "100000"
-    };
 
-    for (let key in student) {
-        document.getElementById("demo").innerHTML +=  key + " : " + student[key] + "<br>";
-    }
-</script>
+    <center>
+        <div style="background-color: antiquewhite; height: 300px; width: 300; border: 2px solid;">
+           <center> <h1>Online shop</h1></center>
+           <h3>Tea : 120</h3>
+           <h3>Coffe : 200</h3>
+           <h3>Rice : 600</h3>
+           <h3>Sugar : 500</h3>
+           <br><br>
+           <button onclick="buy">Click to buy</button>
+           <script>
+            function buy(){
+                let a=prompt
+            }
+                       </script>
+
+        </div>
+    </center>
+    <script>
+         const products = {
+
+            Coffee: {
+                name: "Coffee",
+                price: 120,
+                image: "https://img.magnific.com/free-photo/cup-coffee-latte-wood-table-coffee-shop-cafe_1150-12744.jpg?semt=ais_test_b&w=740&q=80"
+            },
+
+            Tea: {
+                name: "Tea",
+                price: 60,
+                image: "https://cdn.britannica.com/12/180112-138-DBC1C64A/tea-cultivation-brewing.jpg?w=800&h=450&c=crop"
+            },
+
+            Rice: {
+                name: "Rice",
+                price: 40,
+                image: "https://img.freepik.com/premium-photo/jasmine-rice_45583-654.jpg?semt=ais_hybrid&w=740&q=80l"
+            },
+
+            orange: {
+                name: "Orange",
+                price: 100,
+                image: "https://images.unsplash.com/photo-1547514701-42782101795e?w=400"
+            }
+
+        };
+       var z= prompt("enter item");
+    </script>
 </body>
 </html>
