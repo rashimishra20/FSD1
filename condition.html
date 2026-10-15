@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condition</title>
+</head>
+<body>
+    <script>
+    var n=153;
+    var org=n;
+    var s=0;
+    while(n>0){
+        var a=n%10;
+        s=s+a*a*a;
+        n = Math.floor(n / 10);
+    }
+    if(s==org){
+        document.write("yes");}
+        else{
+        document.write("no");
+    }
+    </script>
+    
+    
+</body>
+</html>

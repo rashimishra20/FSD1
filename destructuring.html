@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       /** const student={
+            name:"rashi",
+            branch:"B.tech",
+            fee:"100000"
+        }
+        const {name,branch,fee}=student;
+        document.write(name," ",branch," ",fee);**/
+        //SPREAD OPERATOR   
+        const num=[10,20,30,40];
+        const[f,s,t,fo]=num;
+        document.write(f," ",s ," ", t," ",fo ,"<br>");
+
+        const update=[...num, 50];
+        document.write(update,"<br>");
+        
+        const num1=[60,70,80];
+        const merge=[...num,...num1]
+        document.write(merge);
+    
+    </script>
+</body>
+</html>
